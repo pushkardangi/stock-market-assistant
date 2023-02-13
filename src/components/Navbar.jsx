@@ -7,6 +7,7 @@ import Contact from "../pages/Contact";
 import FunZone from "../pages/FunZone";
 
 import './css/Navbar.css';
+import './css/Components.css';
 
 function Navbar() {
   return (

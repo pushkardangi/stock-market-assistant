@@ -1,5 +1,7 @@
 import React from "react";
 
+import './css/Components.css';
+
 function Returns() {
 
   const calcReturns = (event) => {
@@ -53,7 +55,7 @@ function Returns() {
         </div>
 
         <div
-          className="p-2 my-8 flex w-full justify-center bg-green-400 hover:bg-green-500 text-white font-medium rounded"
+          className="p-2 my-8 unselectable cursor-pointer flex w-full justify-center bg-green-400 hover:bg-green-500 text-white font-medium rounded"
           onClick={calcReturns}>
           Returns<div id="returnsBox"></div>
         </div>
