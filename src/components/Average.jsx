@@ -105,7 +105,7 @@ function Average() {
               id="stockVal"
               value={totalVal}
               className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-slate-300 focus:ring-slate-300 block w-full rounded-md sm:text-sm focus:ring-1"
-              placeholder="Enter price of every stock with + in between"
+              placeholder="Input price of one stock & press enter / + "
               autoComplete="off"
               onChange={(event) => setTotalVal(event.target.value)}
               onKeyDown={handleKeyDown}
